@@ -1,0 +1,103 @@
+{
+    "object": {
+        "children": [{
+            "type": "Mesh",
+            "name": "Cube",
+            "uuid": "F29D1AC4-D789-3D8E-BAB5-59DC1B758FE2",
+            "matrix": [-1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1],
+            "visible": true,
+            "material": "0D4EE5B3-77C5-3767-8148-5B10BA163248",
+            "castShadow": true,
+            "receiveShadow": true,
+            "geometry": "FE46F7EB-A263-3807-8987-EB40ABE18EAA"
+        },{
+            "type": "SpotLight",
+            "name": "light",
+            "uuid": "DD8C1F02-0A20-3C13-B90A-93A17FAB278E",
+            "matrix": [0.290865,-0.055189,0.955171,0,0.771101,0.604525,-0.199883,0,-0.566393,0.794672,0.218391,0,-4.07625,5.90386,1.00545,1],
+            "visible": true,
+            "castShadow": true,
+            "color": 16777215,
+            "intensity": 1,
+            "distance": 30,
+            "angle": 1.309
+        },{
+            "type": "Mesh",
+            "name": "Plane",
+            "uuid": "631279BD-3DB0-34E6-BE17-B19991DEF360",
+            "matrix": [-1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1],
+            "visible": true,
+            "material": "AD577393-CE0D-3F52-AFE9-98BC918D77C0",
+            "castShadow": true,
+            "receiveShadow": true,
+            "geometry": "FDA35051-77AC-3FCF-B642-34C990EA7344"
+        }],
+        "uuid": "50C7D7A1-0956-4685-8932-933FE173F0B4",
+        "matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+        "type": "Scene"
+    },
+    "geometries": [{
+        "uuid": "FDA35051-77AC-3FCF-B642-34C990EA7344",
+        "data": {
+            "vertices": [-7.5,-7.5,0,7.5,-7.5,0,-7.5,7.5,0,7.5,7.5,0],
+            "faces": [1,0,1,3,2],
+            "name": "PlaneGeometry",
+            "metadata": {
+                "vertices": 4,
+                "version": 3,
+                "faces": 1,
+                "generator": "io_three"
+            }
+        },
+        "type": "Geometry"
+    },{
+        "uuid": "FE46F7EB-A263-3807-8987-EB40ABE18EAA",
+        "data": {
+            "vertices": [1,1,0,1,-1,0,-1,-1,0,-1,1,0,1,0.999999,2,0.999999,-1,2,-1,-1,2,-1,1,2],
+            "faces": [1,0,1,2,3,1,4,7,6,5,1,0,4,5,1,1,1,5,6,2,1,2,6,7,3,1,4,0,3,7],
+            "name": "CubeGeometry",
+            "metadata": {
+                "vertices": 8,
+                "version": 3,
+                "faces": 6,
+                "generator": "io_three"
+            }
+        },
+        "type": "Geometry"
+    }],
+    "metadata": {
+        "version": 4.3,
+        "type": "Object",
+        "generator": "io_three",
+        "sourceFile": "scene_spot_light.blend"
+    },
+    "images": [],
+    "materials": [{
+        "blending": "NormalBlending",
+        "specular": 8355711,
+        "type": "MeshPhongMaterial",
+        "color": 4692387,
+        "depthTest": true,
+        "shininess": 50,
+        "depthWrite": true,
+        "vertexColors": false,
+        "uuid": "0D4EE5B3-77C5-3767-8148-5B10BA163248",
+        "name": "CubeMat",
+        "ambient": 4692387,
+        "emissive": 0
+    },{
+        "blending": "NormalBlending",
+        "specular": 8355711,
+        "type": "MeshPhongMaterial",
+        "color": 10712727,
+        "depthTest": true,
+        "shininess": 50,
+        "depthWrite": true,
+        "vertexColors": false,
+        "uuid": "AD577393-CE0D-3F52-AFE9-98BC918D77C0",
+        "name": "PlaneMat",
+        "ambient": 10712727,
+        "emissive": 0
+    }],
+    "textures": []
+}

@@ -1,0 +1,43 @@
+{
+    "materials": [{
+        "shading": "phong",
+        "mapBumpAnisotropy": 1.0,
+        "colorDiffuse": [0.64,0.64,0.64],
+        "mapBumpScale": 5.0,
+        "colorAmbient": [0.64,0.64,0.64],
+        "doubleSided": true,
+        "mapBumpRepeat": [1,1],
+        "DbgName": "Material",
+        "opacity": 1.0,
+        "blending": "NormalBlending",
+        "specularCoef": 50,
+        "mapSpecularRepeat": [1,1],
+        "colorSpecular": [0.5,0.5,0.5],
+        "mapSpecular": "cloud.png",
+        "depthTest": true,
+        "mapBumpWrap": ["RepeatWrapping","RepeatWrapping"],
+        "depthWrite": true,
+        "visible": true,
+        "DbgColor": 15658734,
+        "mapSpecularWrap": ["RepeatWrapping","RepeatWrapping"],
+        "mapSpecularAnisotropy": 1.0,
+        "wireframe": false,
+        "colorEmissive": [0.0,0.0,0.0],
+        "transparent": false,
+        "mapBump": "cloud.png",
+        "DbgIndex": 0
+    }],
+    "uvs": [[0.0001,0.0001,0.9999,0.0001,0.9999,0.9999,0.0001,0.9999]],
+    "vertices": [-5.0,0.0,5.0,5.0,0.0,5.0,-5.0,-0.0,-5.0,5.0,-0.0,-5.0],
+    "faces": [11,0,1,3,2,0,0,1,2,3],
+    "name": "PlaneGeometry",
+    "metadata": {
+        "generator": "io_three",
+        "materials": 1,
+        "uvs": 1,
+        "type": "Geometry",
+        "vertices": 4,
+        "faces": 1,
+        "version": 3
+    }
+}
